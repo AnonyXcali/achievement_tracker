@@ -5,9 +5,18 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+//custom components
+
+import { NavbarAllComponent } from './navbar-always/navbarall.component';
+import { HomepageComponent } from './homepage/homepage.component';
+
+//custom components
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarAllComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
